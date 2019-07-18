@@ -4,19 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="./node_modules/bootstrap-v4-rtl/dist/js/bootstrap.bundle.js"></script>
-    <script src="./node_modules/bootstrap-v4-rtl/dist/js/bootstrap.js"></script>
+    <script src="./node_modules/bootstrap-v4-rtl/dist/js/bootstrap.js"></script> 
     <link rel="stylesheet" href="./node_modules/bootstrap-v4-rtl/dist/css/bootstrap-rtl.min.css">
     <link rel="stylesheet" href="./CSS/style.css">
     <title>farsi LoopLab</title>
 </head>
-<body>
+<body data-spy="scroll" data-target="#main-nav" id="home">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class=" navbar-brand text-white font-weight-bold" href="index.html">لوپ لب فارسی</a>
+            <button class=" navbar-toggler" data-toggle="collapse"  data-target="#collapse-nav">
+                <span class=" navbar-toggler-icon"></span>
+            </button>
+            <div class=" collapse navbar-collapse" id="collapse-nav">
+                <ul class="rtl navbar-nav ml-auto">
+                    <li class=" nav-item">
+                        <a href="#home-section" class=" nav-link font-weight-bold mx-2">خانه</a>
+                    </li>
+                    <li class=" nav-item">
+                        <a href="#explore-section" class=" nav-link font-weight-bold mx-2">کاوش</a>
+                    </li>
+                    <li class=" nav-item">
+                        <a href="#create-section" class=" nav-link font-weight-bold mx-2">ساخت</a>
+                    </li>
+                    <li class=" nav-item">
+                        <a href="#share-section" class=" nav-link font-weight-bold mx-2">اشتراک</a>
+                    </li>
+                </ul> 
+            </div>
+            
+        </div>
+    </nav>
+   
+    <!-- home_section -->
+
+    <header id="home-section">
+        <div class="dark-overley">
+            <div class="container border" id="home-content">
+                <div class="rtl row text-white">
+                    <div class=" col-lg-8 d-block border">
+                        <h1 class="m-2">پروفایل اجتماعی خود را بساز و درآمد کسب کن</h1>
+                        <div class=" d-flex flex-column">
+                            <div class="media">
+                                <i class="fa fa-check-square" aria-hidden="true"></i>
+                                <div class="media-body">
+                                    <h5>Media heading</h5>
+                                    Media text
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+    </header>
+        
     
-    <div class="form-group">
-      <label for="">username</label>
-      <input type="text"
-        class="form-control" name="" id="" aria-describedby="helpId" placeholder="inja....">
-      <small id="helpId" class="form-text text-muted">Help text</small>
-    </div>
+   
 </body>
 </html>
